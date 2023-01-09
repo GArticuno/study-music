@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  z-index: 2;
+}
+
+.image-container {
+  margin: 1rem;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  color: #ffffff;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.title-artist {
+  font-size: 1rem;
+  
+  font-weight: bold;
+}
+
+.title-name {
+  font-size:  1rem;
+}
+
+.slider-container {
+  flex: 1;
+}
+
+.button-player {
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  transition: 0.3s;
+}
+
+.button-player:hover {
+  opacity: 0.3;
+}
