@@ -39,10 +39,10 @@ export function Player() {
         </div>
         <div className="title-container">
           <div title="title=artist" unselectable="on">
-            Lofi Hip Hop Mix
+            Rick and Morty
           </div>
           <div className="title-name" unselectable="on">
-            Dia de chuva
+            lofi beats to relax/study
           </div>
         </div>
         <div>
